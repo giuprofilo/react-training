@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  align-items: center;
+  height: 170px;
+  margin: 15px;
+}
+
+.card > img {
+  height: 150px;
+  padding-left: 5px;
+}
+
+.card > div {
+  text-align: left;
+  padding: 5px;
+}
+p {
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+}
