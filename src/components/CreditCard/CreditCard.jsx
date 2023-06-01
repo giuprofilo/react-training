@@ -1,5 +1,6 @@
 import visaCard from "../../assets/images/visa-logo.jpg";
 import masterCard from "../../assets/images/master.png";
+import "./CreditCard.css";
 
 export default function CreditCard(props) {
   const {
@@ -26,7 +27,10 @@ export default function CreditCard(props) {
       style={{ backgroundColor: bgColor, color: color }}
       className="creditCard"
     >
-      <img src={checkType(type)} alt="CardType" />
+      <div className="divImg">
+        <img className="img-size" src={checkType(type)} alt="CardType" />
+      </div>
+
       <p>**** **** **** {number.substr(-4)}</p>
       <span>
         Expires:{expirationMonth} {expirationYear} {bank} {""}

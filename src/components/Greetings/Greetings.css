@@ -1,7 +1,8 @@
 .greetings {
   display: flex;
   border: 1px solid black;
-  height: 40px;
+
   margin: 15px;
   align-items: center;
+  padding: 5px;
 }
